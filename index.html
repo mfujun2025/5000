@@ -416,6 +416,42 @@
             opacity: 0.8;
         }
 
+        /* Feishu Contact Button */
+        .feishu-contact-box {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .feishu-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #3370FF 0%, #1a5ae8 100%);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(51, 112, 255, 0.3);
+        }
+
+        .feishu-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(51, 112, 255, 0.4);
+        }
+
+        .feishu-icon {
+            font-size: 20px;
+        }
+
+        .feishu-hint {
+            margin-top: 8px;
+            font-size: 13px;
+            opacity: 0.7;
+        }
+
         /* Footer */
         footer {
             background: var(--text);
@@ -694,8 +730,17 @@
     <section class="contact-section" data-page-node-id="xXoGD9CNJ4TtwFbk7S5Hli">
         <div class="container" data-page-node-id="qtdsrFw1u340q3XqFKVZbb">
             <h2 class="contact-title" data-page-node-id="nemIUljBEIrDtsASEwLHmw">联系方式</h2>
-            <p class="contact-desc" data-page-node-id="V2ygz5FrobMigArfzOnoPY">如有意向，请通过以下邮箱联系，我们将尽快回复</p>
-            
+            <p class="contact-desc" data-page-node-id="V2ygz5FrobMigArfzOnoPY">如有意向，请通过以下方式联系，我们将尽快回复</p>
+
+            <!-- 飞书客服入口 -->
+            <div class="feishu-contact-box" data-page-node-id="feishu-500">
+                <a href="https://open.feishu.cn/app" target="_blank" rel="noopener noreferrer" class="feishu-button" data-page-node-id="feishu-btn-500">
+                    <span class="feishu-icon">💬</span>
+                    <span class="feishu-text">飞书在线客服</span>
+                </a>
+                <p class="feishu-hint" data-page-node-id="feishu-hint-500">点击添加客服微信或通过飞书联系我</p>
+            </div>
+
             <div class="contact-box" data-page-node-id="EbASre4USKechAEaYTru9x">
                 <a href="mailto:mfujun@agent.qq.com" class="contact-email" data-page-node-id="qFaORM6YaHg0AC2ZuttbSU">mfujun@agent.qq.com</a>
                 <p class="contact-hint" data-page-node-id="h4tG1nXOeJuZSCkS7JIEsi">📧 邮件主题请注明：域名 500.中国 咨询</p>
